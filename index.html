@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my project</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <!--header area-->
+
+    <div>
         <header>
             <nav>
                 <!--the h3 and the nav-2-container will display flex-->
@@ -24,8 +24,7 @@
                     <!--this div called nav-3 contains the call icon with a number-->
                     <!--the aim is when displayed flex the <p> will float right-->
                     <div class="nav-3">
-                        <p style="color: gray;">|</p>
-                        <img src="./Assistance Icon.png" alt="">
+                        <img src="./img/Assistance Icon.png" alt="">
                         <div>
                             <p>Road Assistance</p>
                             <p>1800 265 24 52</p>
@@ -34,53 +33,42 @@
                 </div>
             </nav>
         </header>
-        
+    </div>
+    
+    <div class="box">
         <div class="box-container">
-            <div class="box-1">
-                <div class="box-1-container">
-                    <br>
-                    <div class="content">
-                        <h1>Get your vehicle service done online at one place</h1>
-                        <button>Book a service</button>
+            <!-- left box -->
+            <div id="left-box">
+                <div id="container">
+                    <h1>Get your vehicle service done online at one place</h1>
+                <button>Book a service</button>
+                <div id="icon">
+                    <div><img src="./img/Icon.png" alt=""></div>
+                    <div>
+                        <p class="open">We are open</p>
+                        <p class="days">Monday to Friday 9:00 AM TO 10:00 AM</p>
                     </div>
-                    <div class="opening-hour">
-                        <img src="./Icon.png" alt="">
-                        <div>
-                            <p class="gray">We are open</p>
-                             <p>Monday to Friday 9:00 AM TO 10:00 AM</p>
-                        </div>
-                    </div>
+                </div>
                 </div>
             </div>
-    
-            <div class="box-2">
-                <div class="box-2-background-image">
-                    <!--the first left circled box-->
-                    <br>
-                    <div id="inner-flex-1">
-                        <div id="round-green-circle">
-                            <p><span>24 hr</span></p>
-                        </div>
-                        <div id="inner-text">
-                            <p>Quick service</p>
-                        </div>
-                    </div>
-                    <!--the second right inner circle with star-->
-                    <div class="wrap">
-                        <div id="inner-flex-2">
-                            <div style="width: 30%; padding-left: 12px; margin-right: 15px;">
-                                <h3>4.5/5</h3>
-                                <p>Ratting</p>
-                            </div>
-                            <img src="./Stars.png" alt="" style="width: 40%;">
-                    </div>
-                </div>
-                </div>
+            <!-- right box -->
+            <div id="right-box">
+                <img
+                     src="./img/Service.png" 
+                     alt="service"
+                     width="70%"
+                     class="service"
+                />
+                <img
+                     src="./img/Rating.png"
+                     alt="rating" 
+                     width="70%"
+                     class="rating"
+                />
             </div>
         </div>
     </div>
-    <section>
 
-    </section>
+    <section></section>
 </body>
 </html>
