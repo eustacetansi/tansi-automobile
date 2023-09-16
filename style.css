@@ -5,15 +5,21 @@
  }
 /* header area */
 header{
-    width: 80%;
+    width: 100%;
     margin: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    background-color: #fff;
+    z-index: 50;
 }
 header nav{
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between ;
     flex-wrap: wrap;
     padding: 10px 0;
+    left: 10%;
 }
 header nav ul{
     display: flex;
@@ -43,7 +49,7 @@ header nav .nav-3 img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 .box .box-container{
     display: flex;
@@ -101,8 +107,254 @@ button{
     margin-bottom: 15px;
     margin-bottom: 20px; 
 }
+button:hover{
+    background-color: #1E1B1B;
+    transition: all ease-in-out 0.9s;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #FF6433;
+}
+/* taking car servicing serious */
+.parent-container{
+    background: #E2E6E9;
+    height: 92vh;
+}
+/* .parent-container  */
+.parent-flex{
+    width: 80%;;;;;;;;;;;;;;;;;;;;;;;;;;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+/* service left box specifically */
+/* .parent-container .parent-flex  */
+.parent-left{
+    width: 45%;
+    margin: auto;;;;;;;
+}
+.parent-container .parent-flex .parent-left .service{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.parent-container .parent-flex .parent-left .service img{
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 3px solid #fff;
+}
+.parent-container .parent-flex .parent-left .service p{
+    font-size: 10px;
+    padding-top: 3px;
+    color: #1E1B1B;
+    opacity: 60%;
+}
+/* arrow pointer */
+.parent-container .parent-flex .parent-left .service .arrow img{
+    width: 20px;
+    background-color: #E2E6E9;
+    border: none;
+    color: #1E1B1B;
+    width: 20px;
+    height: 5px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
 
-section{
+.parent-container .parent-flex .parent-left .service .arrow{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* service right box specifically */
+/* .parent-container .parent-flex  */
+.parent-right{
+    width: 45%;
+    margin: auto;
+}
+.parent-container .parent-flex .parent-right form{
+    padding-top: 20px;
+}
+
+.parent-container .parent-flex .parent-right form input{
+    margin-bottom: 1px;
+    border: none;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+}
+
+/* another section */
+.parent-white{
+    background-color: #ffffff;
+    height: 60vh;
+}
+.parent-white h1, p{
+    padding-bottom: 10px;
+}
+.parent-white p{
+    color: #1E1B1B;
+    opacity: 65%;
+    font-size: 10px;
+}
+.parent-white h4{
+    padding-bottom: 5px;
+}
+
+.parent-white h3{
+    margin-right: 15px;
+    background-color: #661CE7;
+    padding-top: 2px;
+    color: #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.parent-white #parent-right-container #number{
+    display: flex;
+}
+#parent-right-container #flex-inner-numbe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section what we offer */
+.parent-container-ht{
     height: 100vh;
-    background-color: #939191;
+    background: #F2F2F2;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+
+}
+.parent-container-ht .auto-repair{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.parent-container-ht .auto-repair .offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px auto auto auto;
+    width: 100%;;;;;;;
+}
+.parent-container-ht .auto-repair .offer #offer-box:hover{
+    background-color: #FF6433;
+    color: #ffffff;
+    width: 20%;
+    border-radius: 10px;
+    transition:all ease-in-out 0.9s;
+    transform: scale(1);
+    cursor: pointer;
+
+}
+
+.parent-container-ht .auto-repair .offer #offer-box{
+    width: 23%;
+    background-color: #ffffff;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-container-ht .auto-repair .offer #offer-box img{
+    padding-bottom: 10px;
+}
+#offer-box + #offer-box{
+    margin: 3px;
+}
+.offer-arrow{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+}
+.offer-arrow img{
+    width: 20px;
+    background-color: #E2E6E9;
+    border: none;
+    color: #1E1B1B;
+    width: 20px;
+    height: 5px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+/* splash section */
+.splash-container{
+    height: 60vh;
+    background-color:#F2F2F2;
+}
+
+.splash-container .splash{
+    display: flex;
+    height: 47vh;
+    
+}
+.splash #splash-1{
+    background: url(./img/Image\ 1.png);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100%;
+}
+.splash #splash-2{
+    background-color: #FF6433;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#splash-2 div{
+    width: 80%;
+    margin: auto;
+
+}
+.splash #splash-3{
+    background: url(./img/ovGrEUgrkyE.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.splash-container .splash-rating-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+#splash-rating h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #661CE7;
+}
+#splash-rating p{
+    font-size: 13px;
+    color:#1E1B1B;
+    ;
 }
