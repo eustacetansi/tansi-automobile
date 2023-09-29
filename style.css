@@ -365,3 +365,116 @@ button:hover{
     color:#1E1B1B;
     ;
 }
+
+/* media query */
+@media screen and (max-width : 425px) {
+    /* header */
+    header nav{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    header nav h3{
+        text-align: center;
+        padding: 3px 0 6px 0;
+        font-size: 25px;
+    }
+    header nav .nav-2-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav ul{
+        width: 90%;
+        margin: auto;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+    }
+    header nav ul li{
+        gap: 10px;
+        font-weight: bold;
+    }
+    header nav .nav-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 4px;
+        font-weight: bold;
+    }
+    header nav .nav-3 p{
+        padding: 1px;
+    }
+    /* europage */
+    .box{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        height: auto;
+        text-align: center;
+    }
+    .box .box-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+    .box .box-container #right-box{
+        width: 100%;
+        height: 70vh;
+    }
+    .box .box-container #left-box{
+        width: 85%;
+        margin: auto;
+        height: 30vh;
+    }
+    .box .box-container #left-box h1{
+        width: 100%;
+        margin: auto;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .box .box-container #left-box .btn-div{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .parent-container  */
+    .parent-container{
+        background: #E2E6E9;
+        height: auto;
+    }
+    .parent-flex{
+    width: 95%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    }
+    /* service left box specifically */
+/* .parent-container .parent-flex  */
+    .parent-left{
+    width: 97%;
+    margin: auto;;;;;;;
+    padding-top: 20px;
+    }
+
+    /* service right box specifically */
+/* .parent-container .parent-flex  */
+.parent-right{
+    width: 97%;
+    margin: auto;
+}
+
+.parent-white p{
+    color: #1E1B1B;
+    width: 99%;
+    opacity: 65%;
+    font-size: 14px;
+}
+}
