@@ -363,10 +363,11 @@ button:hover{
 }
 
 /* media query */
-@media screen and (max-width : 425px) {
+@media screen and (max-width : 450px) {
     /* header */
    body{
     overflow: hidden;
+    object-fit: contain;
    }
     header nav{
         width: 100%;
