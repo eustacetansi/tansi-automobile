@@ -370,9 +370,6 @@ button:hover{
         margin: auto;
         display: block;
     }
-    header-div{
-        overflow: hidden;
-    }
     header nav h3{
         text-align: center;
         padding: 3px 0 6px 0;
@@ -519,6 +516,38 @@ button:hover{
 }
 }
 
-@media screen (min-width:425px) and (max-width:850px) {
+@media screen and (min-width:451px) and (max-width:850px) {
     
+    header nav h3{
+        text-align: center;
+        padding: 3px 0 6px 0;
+        font-size: 35px;
+    }
+    header nav{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    header nav .nav-2-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav ul{
+        margin: auto;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    header nav .nav-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        padding-top: 4px;
+        font-weight: 600;
+    }
 }
