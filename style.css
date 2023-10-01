@@ -365,14 +365,13 @@ button:hover{
 /* media query */
 @media screen and (max-width : 450px) {
     /* header */
-   body{
-    overflow: hidden;
-    object-fit: contain;
-   }
     header nav{
         width: 100%;
         margin: auto;
         display: block;
+    }
+    header-div{
+        overflow: hidden;
     }
     header nav h3{
         text-align: center;
@@ -421,6 +420,14 @@ button:hover{
         flex-direction: column-reverse;
         height: auto;
         width: 100%;
+    }
+    .box .box-container #right-box .rating {
+        right: 0%;
+    }
+    .box .box-container #right-box .service {
+        left: -16%;
+        padding-top: 12vh;
+        top: 14%;
     }
     .box .box-container #right-box{
         width: 100%;
@@ -471,7 +478,7 @@ button:hover{
     margin: auto;
 }
 .parent-white{
-    height: 55vh;
+    height: auto;
 }
 .parent-white p{
     color: #1E1B1B;
