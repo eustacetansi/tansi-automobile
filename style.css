@@ -123,7 +123,7 @@ button:hover{
 /* taking car servicing serious */
 .parent-container{
     background: #E2E6E9;
-    height: 92vh;
+    height: 100vh;
 }
 /* .parent-container  */
 .parent-flex{
@@ -198,7 +198,7 @@ button:hover{
 /* another section */
 .parent-white{
     background-color: #ffffff;
-    height: 60vh;
+    height: auto;
 }
 .parent-white h1, p{
     padding-bottom: 10px;
@@ -306,7 +306,7 @@ button:hover{
 
 /* splash section */
 .splash-container{
-    height: 60vh;
+    height: auto;
     background-color:#F2F2F2;
 }
 
@@ -373,7 +373,7 @@ button:hover{
     header nav h3{
         text-align: center;
         padding: 3px 0 6px 0;
-        font-size: 25px;
+        font-size: 18px;
     }
     header nav .nav-2-container{
         display: block;
@@ -387,7 +387,7 @@ button:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
     }
     header nav ul li{
         gap: 10px;
@@ -397,7 +397,7 @@ button:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 4px;
         font-weight: bold;
     }
@@ -514,6 +514,23 @@ button:hover{
 .parent-container-ht{
     height: 85vh;
 }
+.splash-container .splash-rating-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#splash-rating{
+    width: 44%;
+}
+#splash-rating h3{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #661CE7;
+}
+#splash-rating p{
+    font-size: 15px;
+}
 }
 
 @media screen and (min-width:451px) and (max-width:850px) {
@@ -521,7 +538,7 @@ button:hover{
     header nav h3{
         text-align: center;
         padding: 3px 0 6px 0;
-        font-size: 35px;
+        font-size: 22px;
     }
     header nav{
         width: 80%;
@@ -539,15 +556,73 @@ button:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 24px;
+        font-size: 11px;
         font-weight: 600;
     }
     header nav .nav-3{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 11px;
         padding-top: 4px;
         font-weight: 600;
+    }
+    .splash-container .splash-rating-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #splash-rating{
+        width: 40%;
+    }
+    #splash-rating h3{
+        font-size: 18px;
+        font-weight: bolder;
+        color: #661CE7;
+    }
+    #splash-rating p{
+        font-size: 12px;
+    }
+
+    .parent-container{
+        background: #E2E6E9;
+        height: auto;
+    }
+    .parent-flex{
+    width: 95%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    }
+    /* service left box specifically */
+/* .parent-container .parent-flex  */
+    .parent-left{
+    width: 97%;
+    margin: auto;;;;;;;
+    padding-top: 20px;
+    }
+    .parent-right{
+        width: 97%;
+        margin: auto;
+    }
+
+    .parent-white{
+        height: auto;
+    }
+    .parent-white p{
+        color: #1E1B1B;
+        width: 99%;
+        opacity: 65%;
+        font-size: 15px;
+    }
+
+    .parent-container-ht .auto-repair .offer #offer-box{
+        width: 44%;
+        height: 15vh;
+    }
+    
+    .parent-container-ht .auto-repair .offer #offer-box:hover{
+        width: 48%;
     }
 }
